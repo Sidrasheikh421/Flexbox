@@ -3,7 +3,13 @@
     padding: 0px auto;
 }
  body{
-    background-color: black;
+    background-color: black; 
+ }
+ h1{
+    text-align: center;
+    justify-content:center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 20px; 
  }
 #contaniner{
     display: flex;
@@ -13,8 +19,9 @@
     text-align: center;
     justify-content: center;
     margin-top: 400px;
+    flex-wrap: wrap;
 }
-.card{
+.code{
     background-color: white;
     padding: 20px;
     width: 300px;
